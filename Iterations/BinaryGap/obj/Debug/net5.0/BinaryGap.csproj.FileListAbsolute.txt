@@ -1,0 +1,16 @@
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.csproj.AssemblyReference.cache
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.GeneratedMSBuildEditorConfig.editorconfig
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.AssemblyInfoInputs.cache
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.AssemblyInfo.cs
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.csproj.CoreCompileInputs.cache
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap.deps.json
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap.runtimeconfig.json
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap.runtimeconfig.dev.json
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap.dll
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/ref/BinaryGap.dll
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/bin/Debug/net5.0/BinaryGap.pdb
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.dll
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/ref/BinaryGap.dll
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.pdb
+/home/martin/workspace/dotnet/Codility/Iterations/BinaryGap/obj/Debug/net5.0/BinaryGap.genruntimeconfig.cache

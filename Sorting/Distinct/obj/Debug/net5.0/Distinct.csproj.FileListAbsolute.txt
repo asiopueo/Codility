@@ -1,0 +1,16 @@
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct.deps.json
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct.runtimeconfig.json
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct.runtimeconfig.dev.json
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct.dll
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/ref/Distinct.dll
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/bin/Debug/net5.0/Distinct.pdb
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.csproj.AssemblyReference.cache
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.GeneratedMSBuildEditorConfig.editorconfig
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.AssemblyInfoInputs.cache
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.AssemblyInfo.cs
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.csproj.CoreCompileInputs.cache
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.dll
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/ref/Distinct.dll
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.pdb
+/home/martin/workspace/dotnet/Codility/Sorting/Distinct/obj/Debug/net5.0/Distinct.genruntimeconfig.cache
