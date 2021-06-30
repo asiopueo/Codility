@@ -5,7 +5,27 @@ namespace StoneWall
 {
     class Solution {
         public static int solution(int[] H) {
-            return 0;
+            int counter = 0;
+            Stack<int> stack = new Stack<int>();
+
+            for (int i=0; i<H.Length; i++) 
+            {
+                while (stack.Count!=0 && H[i] < stack.Peek()) {
+                    stack.Pop();
+                    counter++;
+                }
+                
+                if (stack.Count==0 || H[i] > stack.Peek() )
+                    stack.Push(H[i]);
+            }
+
+            // Treat the last element
+            while (stack.Count!=0) {
+                    stack.Pop();
+                    counter++;
+            }
+
+            return counter;
         }
     }
     class Program
