@@ -19,7 +19,7 @@ namespace StoneWall
                     stack.Push(H[i]);
             }
 
-            // Treat the last element
+            // Treatment of the last element
             while (stack.Count!=0) {
                     stack.Pop();
                     counter++;
