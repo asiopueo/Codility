@@ -16,8 +16,7 @@ namespace FibFrog
         }
 
         public int GetFibonacci(int n) {
-            int lastIndex = fib.Count-1;
-            if (n <= lastIndex)
+            if (n < fib.Count)
                 return fib[n];
             else {
                 return CalculateFibunacci(n);
@@ -30,11 +29,23 @@ namespace FibFrog
         // Space complexity: O()
         public static int solution(int[] A) {
             // Greedy algorithm
-            int pos = -1;
-
+            int frogPos = -1;
+            int counter = 0;
             Fibonacci fib = new Fibonacci();
 
-            return fib.GetFibonacci(13);
+            while (frogPos < A.Length+1) {
+                for (int i=1; i<=A.Length;i++)
+                    if (fib.GetFibonacci(i)+frogPos < A.Length && A[fib.GetFibonacci(i)+frogPos]==1) {
+                        frogPos += fib.GetFibonacci(i);
+                        counter++;
+                        Console.WriteLine(counter);
+                        break;
+                    }
+                    else if (fib.GetFibonacci(i)+frogPos==A.Length)
+                        counter++;
+            }
+
+            return counter;
         }
     }
 
