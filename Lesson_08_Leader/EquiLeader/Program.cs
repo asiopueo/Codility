@@ -3,13 +3,29 @@
 namespace EquiLeader
 {
     class Solution {
+        // Time complexity: O(N) ?
+        // Space complexity: O(1)
         public static int solution(int[] A) {
             int counter = 0;
             int leaderA, leaderB;
 
+            int candidateCounter = 0;
+            int candidate = A[0];
+            for (int i=1; i<A.Length; i++) {
+
+                if (A[i].Equals(candidate))
+                    candidateCounter++;
+                else if (candidateCounter > 0)
+                    candidateCounter--;
+                else
+                    candidate = A[i];
+            }
+
+            Console.WriteLine($"The initial candidate is {candidate}");
+
             for (int i=0; i<A.Length; i++) {
                 
-                if (leaderA == leaderB)
+                if (leaderA.Equals(leaderB))
                     counter++;
             }
 
