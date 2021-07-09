@@ -26,7 +26,7 @@ namespace MaxDoubleSliceSum
 
             int maxDoubleSliceSum = int.MinValue;
 
-            for (int i=2; i<A.Length-2; i++)
+            for (int i=1; i<A.Length-1; i++)
                 maxDoubleSliceSum = Math.Max(maxDoubleSliceSum, Sum1[i-1]+Sum2[i+1] );
 
             return maxDoubleSliceSum; 
