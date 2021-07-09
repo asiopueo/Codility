@@ -24,11 +24,8 @@ namespace Peaks
 
                 HashSet<int> hashSet = new HashSet<int>();
 
-                for(int j=0; j<N/i; j++) {
-                    foreach(var peak in peaks)
-                        if (j*i <= peak && peak < (j+1)*i)
-                            hashSet.Add(j);
-                }
+                foreach(var peak in peaks)
+                    hashSet.Add(peak/i);
 
                 if (hashSet.Count == N/i)
                     return N/i;
