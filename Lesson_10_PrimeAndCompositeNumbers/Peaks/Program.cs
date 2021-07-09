@@ -14,11 +14,11 @@ namespace Peaks
          
             List<int> peaks = new List<int>();
 
-            for (int i=1; i<N; i++)
+            for (int i=1; i<N-1; i++)
                 if(A[i-1]<A[i] && A[i+1]<A[i]) 
                     peaks.Add(i);
 
-            for (int i=1; i<N; i++) {
+            for (int i=1; i<=N; i++) {
                 if (N%i!=0 || N/i > peaks.Count)
                     continue;
 
