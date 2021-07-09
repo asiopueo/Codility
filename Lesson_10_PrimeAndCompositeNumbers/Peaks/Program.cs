@@ -9,23 +9,33 @@ namespace Peaks
         // Space complexity: O()
         public static int solution(int[] A) 
         {
+            int N = A.Length;
+            if (N<2) return 0;
+         
             List<int> peaks = new List<int>();
 
-            for (int i=1; i<A.Length; i++)
+            for (int i=1; i<N; i++)
                 if(A[i-1]<A[i] && A[i+1]<A[i]) 
                     peaks.Add(i);
 
-            foreach(var item in peaks)
-                Console.Write($"{item}, ");                
+            for (int i=1; i<N; i++) {
+                if (N%i!=0 || N/i > peaks.Count)
+                    continue;
 
-            for (int i=peaks[0]+1; i<=peaks[1]; i++) {
-                if 
-                // else
-                // return 0;
-                    
+                HashSet<int> hashSet = new HashSet<int>();
+
+                for(int j=0; j<N/i; j++) {
+                    foreach(var peak in peaks)
+                        if (j*i <= peak && peak < (j+1)*i)
+                            hashSet.Add(j);
+                }
+
+                if (hashSet.Count == N/i)
+                    return N/i;
+
             }
 
-            return int.MinValue; // expected: 3
+            return 0; // expected: 3
         }
     }
     class Program
